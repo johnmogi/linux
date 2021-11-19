@@ -19,4 +19,21 @@ cp העתקה
 cp file new_file
 cp file /var/www/
 
-rm -rf <folder> \\ רקורסיב למחוק את כל הקבצים
+rm -r  <folder> \\ רקורסיב למחוק את כל הקבצים
+לא להשתמש ב F \\ FORCE
+לא להשתמש ב \
+rm -rf \ \\מחיקת כל הקבצים מהמחשב
+
+whoami \\ משתמש להבנת המשתמש הנוכחי נוח במיוחד במצב SSH 
+history - \\ לחפש סיסמאות ביוזרים שלא מחקו היסטוריה
+clear - ctrl l
+passwd - שינוי סיסמה לא להשתמש ב
+root toor
+passwd -d \\ יצירת משתמש ללא סיסמה
+
+wc - ספירת מילים
+
+cat /etc/passwd
+cut -d ":" -f 1,2,3 /etc/passwd
+
+crunch 1 5 1234567890 -o pass.lst \\ מכין קובץ לפריצה
