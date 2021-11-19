@@ -14,12 +14,34 @@ atl ctrl right mouse - mouse ctrl
 sudo su
 alias ls="ls --color=auto"
 
+קבוצת טלגרם - מסמכים וקבצים?
+
 
 apt-get
-apt install ssh
+apt install ssh git nmap -y
 apt update
 apt autoremove --purge <package>
+
 
 למטרת מחקר וסדיקות אבטחה
 apt --download-only source <package>
 apt install nmap -y
+
+
+cd etc/apt/sources.list
+vi sources  
+cd /bin \\ רשימת הפקודות שמותקנות בלינקוס
+whereis ls \\ מציג רת מיקום הפקודה פיסית
+zsh - מכיל פייתון
+gnome-terminal
+
+ls -d
+ls -l \\ רשימה שכוללת הרשאות, מידע מפורט
+- קובץ
+D תיקייה
+-t לפי תאריך
+ls -i \\ inode   - מציג את ההפניה לקובץ מצד המערכת
+ls -il
+ls -ltr
+ls -S \\ לפי גודל
+
