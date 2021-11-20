@@ -37,3 +37,20 @@ cat /etc/passwd
 cut -d ":" -f 1,2,3 /etc/passwd
 
 crunch 1 5 1234567890 -o pass.lst \\ מכין קובץ לפריצה
+
+sort hi.txt
+sort -r hi.txt <reverse>
+cat 12345123345 > file.txt
+sort file.txt | uniq
+
+## tail / head shows 10 lines by default
+head -n 2 file.txt
+tail -f file.txt \\ משאיר את הקובץ פתוח ורואים תוספות של שורות בזמן אמת
+
+
+touch "john mogi"
+rm john/ mogi
+
+cut -d ":" -f 1 group
+cut -d : -f 1 group
+
