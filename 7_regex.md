@@ -18,6 +18,12 @@ ls -l | egrep ^d
 EXCERCISE
 
 1. display all ip's in /var/log/messages, save them into tmp/ip_log
+cat /var/log/messages > /tmp/ip_log
+
 2. display all files in folder using grep + ls
+ls -l | grep ^-
+
 3. display all MAC adresses in the message file
+3D:F2:C9:A6:B3:4F
+
 4. display all lines with error or Error in messages also the line number
