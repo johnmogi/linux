@@ -22,8 +22,10 @@ cat /var/log/messages > /tmp/ip_log
 
 2. display all files in folder using grep + ls
 ls -l | grep ^-
-
+egrep -nio "[0-9]{1}" log_ip
 3. display all MAC adresses in the message file
 3D:F2:C9:A6:B3:4F
 
 4. display all lines with error or Error in messages also the line number
+
+grep -nio "error" log_ip
