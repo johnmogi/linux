@@ -29,3 +29,5 @@ egrep -nio "[0-9]{1}" log_ip
 4. display all lines with error or Error in messages also the line number
 
 grep -nio "error" log_ip
+
+>
