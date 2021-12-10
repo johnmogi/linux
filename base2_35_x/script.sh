@@ -1,7 +1,14 @@
 #!/bin/bash
-# STRING='hello'
-# echo $STRING
+NUM1=100
+read NUM2
 
-read STRING
-echo $STRING
+if [ $NUM1 -eq $NUM2 ]; then
+    echo 'ok'
+else
+    echo 'nope'
+fi
+
+
+
+
 
