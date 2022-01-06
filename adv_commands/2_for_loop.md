@@ -25,3 +25,9 @@ ifconfig | grep "broadcast" | cut -d "t" -f 2 | cut -d " " -f 2
 
 function myIp { ifconfig | grep "broadcast" | cut -d "t" -f 2 | cut -d " " -f 2 ;}
 myIp
+
+touch script.sh
+!#/bin/bash
+function john {
+    echo $1 $2
+}
