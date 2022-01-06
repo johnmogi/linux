@@ -20,3 +20,8 @@ for count in `seq 1 10` ; do echo $count ; done
 
 
 // chmod +x .script.sh
+
+ifconfig | grep "broadcast" | cut -d "t" -f 2 | cut -d " " -f 2
+
+function myIp { ifconfig | grep "broadcast" | cut -d "t" -f 2 | cut -d " " -f 2 ;}
+myIp
